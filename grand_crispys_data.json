@@ -1,0 +1,222 @@
+{
+  "restaurant_info": {
+    "name": "Grand Crispy's",
+    "tagline": "Authentic Halal Fried Chicken & Al Faham Specialists",
+    "certifications": [
+      "Halal Certified",
+      "Available on Zomato",
+      "Available on Swiggy"
+    ],
+    "cooking_styles": [
+      "Fried",
+      "Peri Peri",
+      "Grilled"
+    ],
+    "specialties": [
+      "Al Faham",
+      "Mandi",
+      "Fusion Meals",
+      "Family Combos"
+    ]
+  },
+  "about_us": {
+    "story": "Grand Crispy's is a premier Halal restaurant specializing in authentic Al Faham, crispy fried chicken, and traditional Mandi dishes. Since our establishment, we have been committed to serving high-quality, flavorful meals that bring families together.",
+    "mission": "To provide exceptional dining experiences through authentic flavors, premium ingredients, and warm hospitality while maintaining the highest standards of Halal cuisine.",
+    "values": [
+      "Quality First",
+      "Halal Certified",
+      "Family-Friendly",
+      "Authentic Flavors",
+      "Fresh Ingredients"
+    ]
+  },
+  "best_sellers": [
+    {
+      "name": "Al Faham Quarter",
+      "price": "RS. 175",
+      "description": "Tender, aromatic grilled chicken with authentic Middle Eastern spices",
+      "category": "signature"
+    },
+    {
+      "name": "Fusion Meal 1",
+      "price": "RS. 549",
+      "description": "Alfahm Quarter + 2 Pcs Chicken + Coleslaw + Garlic + Fries",
+      "category": "combo"
+    },
+    {
+      "name": "Family Special",
+      "price": "RS. 1449",
+      "description": "12 Pcs Chicken + 6 Bun + Coleslaw + 6 Garlic + 2 Large Fries + Drinks",
+      "category": "family"
+    },
+    {
+      "name": "Chicken Mandi Full",
+      "price": "RS. 990",
+      "description": "Traditional Arabic rice dish with perfectly spiced fried chicken",
+      "category": "mandi"
+    }
+  ],
+  "menu_categories": {
+    "Budget Meals": {
+      "price_range": "RS. 169-189",
+      "items": [
+        {
+          "name": "Budget Meal",
+          "price": "RS. 169",
+          "description": "1 Pc Chicken + French Fries + Bun"
+        },
+        {
+          "name": "Snack Meal",
+          "price": "RS. 189",
+          "description": "2 Pc Chicken + Bun + Garlic Paste"
+        },
+        {
+          "name": "Mini Meal",
+          "price": "RS. 179",
+          "description": "1 Crunchy + Bun + 2 Ketchup"
+        }
+      ]
+    },
+    "Al Faham Specialties": {
+      "price_range": "RS. 165-690",
+      "items": [
+        {
+          "name": "Kanthari Al Faham",
+          "prices": "Qtr: 175 | Half: 340 | Full: 650"
+        },
+        {
+          "name": "Honey Al Faham",
+          "prices": "Qtr: 190 | Half: 360 | Full: 690"
+        },
+        {
+          "name": "Charcoal Al Faham",
+          "prices": "Qtr: 165 | Half: 310 | Full: 610"
+        },
+        {
+          "name": "Peri Peri Al Faham",
+          "prices": "Qtr: 180 | Half: 350 | Full: 680"
+        }
+      ]
+    },
+    "Mandi Dishes": {
+      "price_range": "RS. 249-990",
+      "items": [
+        {
+          "name": "Al Faham Mandi",
+          "prices": "Qtr: 249 | Half: 479 | Full: 849"
+        },
+        {
+          "name": "Peri Peri Mandi",
+          "prices": "Qtr: 259 | Half: 499 | Full: 898"
+        },
+        {
+          "name": "Fried Chicken Mandi",
+          "prices": "Qtr: 269 | Half: 510 | Full: 990"
+        }
+      ]
+    },
+    "Family Combos": {
+      "price_range": "RS. 799-2199",
+      "items": [
+        {
+          "name": "Royal Box",
+          "price": "RS. 799",
+          "description": "6 Pcs Chicken + 3 Bun + Coleslaw + 3 Garlic + Large Fries + Drinks"
+        },
+        {
+          "name": "Golden Family",
+          "price": "RS. 1149",
+          "description": "9 Pcs Chicken + 4 Bun + Coleslaw + Medium Fries + 3 Garlic + Drinks"
+        },
+        {
+          "name": "Family Special",
+          "price": "RS. 1449",
+          "description": "12 Pcs Chicken + 6 Bun + Coleslaw + 6 Garlic + 2 Large Fries + Drinks"
+        },
+        {
+          "name": "Group Meal",
+          "price": "RS. 2199",
+          "description": "18 Pcs Chicken + 10 Bun + 2 Coleslaw + 6 Garlic + 2 Large Fries + Drinks"
+        }
+      ]
+    }
+  },
+  "combo_offers": [
+    {
+      "name": "Fusion Meal 1",
+      "price": "RS. 549",
+      "items": [
+        "Alfahm Quarter",
+        "2 Pcs Chicken",
+        "Coleslaw",
+        "Garlic",
+        "Fries"
+      ],
+      "savings": "Save RS. 100+"
+    },
+    {
+      "name": "Fusion Meal 2",
+      "price": "RS. 799",
+      "items": [
+        "3 Pcs Chicken",
+        "3 Strips",
+        "3 Wings",
+        "Coleslaw",
+        "Garlic",
+        "Fries"
+      ],
+      "savings": "Save RS. 150+"
+    },
+    {
+      "name": "Variety Meal",
+      "price": "RS. 1299",
+      "items": [
+        "2 Pcs Fried Chicken",
+        "2 Pcs Peri-Peri Chicken",
+        "2 Zinger Burger",
+        "4 Wings"
+      ],
+      "savings": "Save RS. 200+"
+    }
+  ],
+  "beverages": [
+    {
+      "name": "Green Apple Mojito",
+      "price": "RS. 90"
+    },
+    {
+      "name": "Watermelon Mojito",
+      "price": "RS. 90"
+    },
+    {
+      "name": "Blue Lagoon Mojito",
+      "price": "RS. 90"
+    },
+    {
+      "name": "Mint Mojito",
+      "price": "RS. 90"
+    },
+    {
+      "name": "Strawberry Mojito",
+      "price": "RS. 90"
+    },
+    {
+      "name": "Passion Fruit Mojito",
+      "price": "RS. 100"
+    },
+    {
+      "name": "Kacha Aam Mojito",
+      "price": "RS. 100"
+    }
+  ],
+  "contact_info": {
+    "delivery_apps": [
+      "Zomato",
+      "Swiggy"
+    ],
+    "phone": "+92-XXX-XXXXXXX",
+    "email": "info@grandcrispys.com",
+    "hours": "Daily 11:00 AM - 11:00 PM",
+    "address": "Multiple Locations Available"
+  }
+}
