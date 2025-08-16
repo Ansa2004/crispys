@@ -501,21 +501,82 @@ select.form-control {
   padding-right: var(--space-32);
 }
 
-/* Add a dark mode specific caret */
-@media (prefers-color-scheme: dark) {
-  select.form-control {
-    background-image: var(--select-caret-dark);
+/* Light Mode */
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  a { color: #0066cc; }
+  button {
+    background-color: #f2f2f2;
+    color: #000;
+    border: 1px solid #ccc;
   }
 }
 
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark; /* Makes browser UI elements dark */
+  }
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  a { color: #c62828; }
+  li { color: #c62828; }
+  h3 { color: #c62828; }
+  p { color: #c62828; }
+  .nuggets-price{ color: white; }
+  .highlight-card.signature .highlight-price{ color: white; }
+  .highlight-card.combo .highlight-price{ color: white; }
+ .highlight-card.family .highlight-price{ color: white; }
+ .highlight-card.mandi .highlight-price{ color: white; }
+  .combo-content .combo-price{ color: white; }
+  .price-box h3{ color: #F4F4F4;}
+  .special-content .special-price{ color: white; }
+  .price-box p{ color: #F4F4F4;}
+ .about-story p{color: #F4F4F4; }
+ .about-mission p{color: #F4F4F4; }
+.values-list li{color: #F4F4F4; }
+.hero-content p{color: #F4F4F4; }
+
+
+  button {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #333;
+  }
+  input, textarea, select {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border: 1px solid #333;
+  }
+  .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+/* Add a dark mode specific caret */
+/* @media (prefers-color-scheme: dark) {
+  select.form-control {
+    background-image: var(--select-caret-dark);
+  }
+} */
+
 /* Also handle data-color-scheme */
-[data-color-scheme="dark"] select.form-control {
+/* [data-color-scheme="dark"] select.form-control {
   background-image: var(--select-caret-dark);
 }
 
 [data-color-scheme="light"] select.form-control {
   background-image: var(--select-caret-light);
-}
+} */
 
 .form-control:focus {
   border-color: var(--color-primary);
@@ -1327,6 +1388,11 @@ html {
   margin: 0;
 }
 
+.contact-item a {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-lg);
+  margin: 0;
+}
 .delivery-apps {
   display: flex;
   gap: var(--space-12);
@@ -1334,6 +1400,19 @@ html {
 }
 
 .app-badge {
+  display: flex;
+gap: 15px;
+}
+.appzomato{
+  background: var(--gradient-primary);
+  color: white;
+  padding: var(--space-12) var(--space-20);
+  border-radius: var(--radius-full);
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform var(--duration-fast) var(--ease-standard);
+}
+.appswiggy{
   background: var(--gradient-primary);
   color: white;
   padding: var(--space-12) var(--space-20);
@@ -2157,6 +2236,7 @@ padding-right: 80px;
 
 .nuggets-price {
     font-weight: bold;
+    color: #a3183c;
 }
 
 .nuggets-img {
